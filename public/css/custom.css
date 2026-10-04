@@ -1,0 +1,15 @@
+/** ADD YOUR AWESOME CODES HERE **/
+
+/* Fix Categories and Partners Image Sizes */
+.gallery-single img {
+    width: 100%;
+    height: 250px; /* Uniform height for all cards */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+}
+
+/* Fix Quality Assurance Image Sizes */
+figure.snip1401 img {
+    width: 100%;
+    height: 250px; /* Uniform height for QA cards */
+    object-fit: cover;
+}
